@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.headerBox {
+	padding: 15px;
+	background-color: #4A2B75;
+	color: white;
+	text-align: center;
+}
+
+.inputBox {
+	padding: 10px 15px 10px 15px;
+}
+
+#myInput {
+	padding: 5px;
+	width: 60%;
+	font-size: 18px;
+}
+
+.enterBtn {
+	padding: 6px;
+	width: 100px;
+	font-size: 18px;
+	background-color: #C4C1C6;
+}
+
+.enterBtn:hover {
+	background-color: #5D516A;
+	box-shadow: 3px 3px 2px grey;
+	transition: 0.4s;	
+}
+
+ul {
+	list-style-type: none
+	margin: 0;
+	padding: 0;
+	background-color: #FFFF;
+}
+
+ul li:nth-child(odd) {
+	background-color: #e9e1ed;
+}
+
+ul li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	cursor: pointer;
+	font-size: 20px;	
+	padding: 10px;
+	position: relative;
+	background-color: #FFFF;
+
+	/* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;	
+}
+
+ul li:hover {
+	background-color: #92759E;
+}
+
+/*add a checked class to toggle strikethrough on click*/
+/*specify ul li with dom selector in JS*/
+
+ul li.checked {
+	color: #FFFF;
+	background-color: #92759E;
+	text-decoration: line-through;
+}
+
+.doneBtn {
+	width: 100px;
+	padding: 5px;
+	font-size: 18px;
+	background-color: #C4C1C6;
+
+/*	position: absolute;
+	right: 5px;
+	bottom: 5px;*/
+}
+
+.doneBtn:hover {
+	background-color: #5D516A;
+	box-shadow: 3px 3px 2px grey;
+	transition: 0.4s;
+}
