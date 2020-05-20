@@ -1,2 +1,2 @@
 To-Do List 
-# js-todo-list
+# CSS and JS-todo-list
