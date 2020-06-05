@@ -1,15 +1,23 @@
-To-Do List
-# CSS and JS-todo-list
-Use JS to make a to-do list.
-The list must include:
-line-through to cross through items once they are completed.
-delete button to erase or hide items once completed
-an input box to input new to-do items
-an input button which ammends new to-do items to the list
+# ToDo List
+
+## Tech used
+* **HTML**
+* **CSS**
+* **JavaScript**
+
+## Purpose
+A simple todo list, or shopping list which has a default list. The list can be added to, and items can be deleted or crossed through as required. 
+
+## Features
+* Responsive design
+* Input button to amend new items to the end of the list
+* Delete button to delete items as required
+* Click on a list item to create line-through, and cross it out as required
+
+## Improvements and Edits
+* Line-through property includes the Delete button since it is nested in the <li> element
+  * Separate delete button from <li> element so style is not inherited, or make a new class/exception for delete button
 
 
-ISSUES
-The line-through class extends to the text on the delete button because it tis nested within the li items: need to make an exception
-To-do list is not responsive yet
 
 
