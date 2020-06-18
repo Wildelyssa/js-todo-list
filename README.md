@@ -17,6 +17,8 @@ A simple todo list, or shopping list which has a default list. The list can be a
 ## Improvements and Edits
 * Line-through property includes the Delete button since it is nested in the <li> element
   * Separate delete button from `<li>` element so style is not inherited, or make a new class/exception for delete button
+* Responsive design
+   * Decrease size of elements, and look at margins and padding for mobile to make fully responisive
 
 
 
