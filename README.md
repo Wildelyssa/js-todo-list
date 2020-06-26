@@ -8,13 +8,13 @@
 * **JavaScript**
 
 ## Purpose
-A simple todo list, or shopping list which has a default list. The list can be added to, and items can be deleted or crossed through as required. 
+A simple todo list, or shopping list which has a default list. The list can be amended, and items can be deleted and/or crossed through as required. 
 
 ## Features
 * Responsive design
 * Input button to amend new items to the end of the list
 * Delete button to delete items as required
-* Click on a list item to create line-through, and cross it out as required
+* Click on a list item to toggle line-through
 
 ## Improvements and Edits
 *Improved responsive design features for mobile
