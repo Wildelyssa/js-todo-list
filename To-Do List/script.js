@@ -3,30 +3,34 @@ var ul = document.querySelector("ul");
 var enterBtn = document.getElementById("enterBtn");
 var myInput = document.getElementById("myInput");
 
-//create list element with doneBtn 
+
+//create list element with nested span and doneBtn
 function createListElement() {
 var li = document.createElement("li");
-		li.appendChild(document.createTextNode(myInput.value))
-		ul.appendChild(li);
-		myInput.value = "";
+	ul.appendChild(li);		
+
+var span = document.createElement("span");
+	span.appendChild(document.createTextNode(myInput.value))
+	li.appendChild(span);
+	myInput.value= "";
 
 var doneBtn = document.createElement("button");
 	doneBtn.className = "doneBtn";
 	doneBtn.appendChild(document.createTextNode("Done"))
-		li.appendChild(doneBtn)
+	li.appendChild(doneBtn)
 	};
 
 //add click event listener to enterBtn
 enterBtn.addEventListener("click", function () {
 	if (myInput.value.length > 0) { 
-		createListElement ()	
+	createListElement ()	
 	}
 });
 
 //add keypress event listener to enterBtn
 myInput.addEventListener("keypress", function (event) {
 	if (myInput.value.length > 0 && event.keyCode === 13) {
-		createListElement ()
+	createListElement ()
 	}
 });
 
@@ -38,9 +42,8 @@ ul.addEventListener('click', function(event) {
 }, false);
 
 //cross out li items on click
-//inherited by button elements: fix somehow at later date
 ul.addEventListener('click', function(event) {
-  if (event.target.tagName === "LI") {
+  if (event.target.tagName === "SPAN") {
 	event.target.classList.toggle("checked");
   }
 }, false);
