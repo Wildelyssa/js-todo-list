@@ -15,10 +15,9 @@ A simple todo list, or shopping list which has a default list. The list can be a
 * Click on a list item to create line-through, and cross it out as required
 
 ## Improvements and Edits
-* Line-through property includes the Delete button since it is nested in the <li> element
-  * Separate delete button from `<li>` element so style is not inherited, or make a new class/exception for delete button
-* Responsive design
-   * Decrease size of elements, and look at margins and padding for mobile to make fully responisive
+*Improved responsive design features for mobile
+*Improved general padding and look
+*Updated JavaScript. Delete button was interiting line-through from <li> wrapped text in a <span>, and ammended JS to append <li> item with nested <span> and <button> to isolate elements and solve issue
 
 
 
