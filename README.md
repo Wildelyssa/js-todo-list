@@ -22,7 +22,7 @@ A simple todo list, or shopping list which has a default list. The list can be a
 ## Recent Improvements
 *Improved responsive design features for mobile
 *Improved general padding and look
-*Updated JavaScript. Delete button was interiting line-through from <li> wrapped text in a <span>, and ammended JS to append <li> item with nested <span> and <button> to isolate elements and solve issue
+*Updated JavaScript. Delete button was interiting line-through from `<li>` wrapped text in a `<span>`, and ammended JS to append `<li>` item with nested `<span>` and `<button>` to isolate elements and solve issue
 
 
 
