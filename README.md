@@ -17,7 +17,7 @@ A simple todo list, or shopping list which has a default list. The list can be a
 * Click on a list item to toggle line-through
 
 ## Improvements and Edits
-*Make the space around the list items clickable for the line-through
+*Work on making the whole line clickable instead of just the text for the strike-through, without affecting the text on the button. Perhaps a check mark at the end instead which can be clicked on to be deleted. 
 
 ## Recent Improvements
 *Improved responsive design features for mobile
